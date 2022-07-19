@@ -90,15 +90,28 @@ body {
     font-size: 16px;
 }
 
-.prebook-button .fa-solid{
+.prebook-button .fa-solid {
     padding-left: 10px;
 }
-.banner{
+
+.banner {
     padding-top: 80px;
 }
 
 .banner img {
     border-radius: 50%;
     box-shadow: 2px 2px 2px lightgray;
+}
 
+/*----------------------------------------
+             company logo style
+----------------------------------------*/
+.company-logo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
